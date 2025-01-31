@@ -1,1 +1,8 @@
 # LeetCode_DualPointer
+LeetCode双指针算法题的解题仓库
+[LeetCode_DepthFirstSearch](https://github.com/Jason-Chen-Y/LeetCode_DepthFirstSearch/blob/master/README.md)
+用于双指针算法专项训练
+
+[L5. 最长回文子串](https://leetcode.cn/problems/longest-palindromic-substring/description/?envType=problem-list-v2&envId=two-pointers) : [L5_longestPalindrome](L5_longestPalindrome)
+
+[L11. 盛最多水的容易](https://leetcode.cn/problems/container-with-most-water/description/?envType=problem-list-v2&envId=two-pointers) ： [L11_maxArea](L11_maxArea)
