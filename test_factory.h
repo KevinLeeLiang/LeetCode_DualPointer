@@ -16,6 +16,8 @@
 #include <memory>
 #include "L5_longestPalindrome/L5_longestPalindrome.h"
 #include "L11_maxArea/L11_maxArea.h"
+#include "L15_threeSum/L15_threeSum.h"
+#include "L16_threeSumClosest/L16_threeSumClosest.h"
 class test_factory {
 private:
     void buildSolution(string title) {
@@ -24,6 +26,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
         } else if (title == "L11") {
             std::shared_ptr<L11_maxArea> tmp= std::make_shared<L11_maxArea>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L15") {
+            std::shared_ptr<L15_threeSum> tmp= std::make_shared<L15_threeSum>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L16") {
+            std::shared_ptr<L16_threeSumClosest> tmp= std::make_shared<L16_threeSumClosest>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
         }
     }
