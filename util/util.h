@@ -153,4 +153,59 @@ inline string print_tree(TreeNode *root) {
     }
     return s;
 }
+template<typename T>
+void print_vector_vector(vector<vector<T>> &vec) {
+    for (auto &item : vec) {
+        for (auto &item2 : item) {
+            cout << item2 << " ";
+        }
+        cout << endl;
+    }
+    cout <<  "__________" << endl;
+}
+
+
+struct ListNode {
+    int val;
+    ListNode *next;
+
+    ListNode() : val(0), next(nullptr) {}
+
+    ListNode(int x) : val(x), next(nullptr) {}
+
+    ListNode(int x, ListNode *next) : val(x), next(next) {}
+};
+
+inline ListNode *create_list(vector<int> list_vals) {
+    if (list_vals.size() == 0)
+        return nullptr;
+    ListNode *head = new ListNode(list_vals[0]);
+    ListNode *p = head;
+    for (int i = 1; i < list_vals.size(); ++i) {
+        p->next = new ListNode(list_vals[i]);
+        p = p->next;
+        if (i == list_vals.size() - 1) {
+            p->next = nullptr;
+        }
+    }
+    return head;
+}
+inline void print_list(ListNode *head) {
+    ListNode *p = head;
+    while (p != nullptr) {
+        cout << p->val << " ";
+        p = p->next;
+    }
+    cout << endl;
+    cout << "__________" << endl;
+}
+
+inline void delete_list(ListNode *head) {
+    ListNode *p = head;
+    while (p != nullptr) {
+        ListNode *tmp = p;
+        p = p->next;
+        delete tmp;
+    }
+}
 #endif //DUALPOINTER_UTIL_H

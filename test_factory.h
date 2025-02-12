@@ -18,6 +18,8 @@
 #include "L11_maxArea/L11_maxArea.h"
 #include "L15_threeSum/L15_threeSum.h"
 #include "L16_threeSumClosest/L16_threeSumClosest.h"
+#include "L18_fourSum/L18_fourSum.h"
+#include "L19_removeNthFromEnd/L19_removeNthFromEnd.h"
 class test_factory {
 private:
     void buildSolution(string title) {
@@ -32,6 +34,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
         } else if (title == "L16") {
             std::shared_ptr<L16_threeSumClosest> tmp= std::make_shared<L16_threeSumClosest>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L18") {
+            std::shared_ptr<L18_fourSum> tmp= std::make_shared<L18_fourSum>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L19") {
+            std::shared_ptr<L19_removeNthFromEnd> tmp= std::make_shared<L19_removeNthFromEnd>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
         }
     }
