@@ -14,3 +14,7 @@ LeetCode双指针算法题的解题仓库
 [18. 四数之和](https://leetcode.cn/problems/4sum/description/?envType=problem-list-v2&envId=two-pointers) : [L18_fourSum](L18_fourSum)
 
 [19. 删除链表的倒数第 N 个结点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/description/?envType=problem-list-v2&envId=two-pointers) : [L19_removeNthFromEnd](L19_removeNthFromEnd)
+
+[26. 删除排序数组中的重复项](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/description/?envType=problem-list-v2&envId=two-pointers) : [L26_removeDuplicates](L26_removeDuplicates)
+
+[27. 移除元素](https://leetcode.cn/problems/remove-element/description/?envType=problem-list-v2&envId=two-pointers) : [L27_removeElement](L27_removeElement)

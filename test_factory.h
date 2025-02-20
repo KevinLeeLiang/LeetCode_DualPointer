@@ -20,6 +20,9 @@
 #include "L16_threeSumClosest/L16_threeSumClosest.h"
 #include "L18_fourSum/L18_fourSum.h"
 #include "L19_removeNthFromEnd/L19_removeNthFromEnd.h"
+#include "L26_removeDuplicates/L26_removeDuplicates.h"
+#include "L27_removeElement/L27_removeElement.h"
+
 class test_factory {
 private:
     void buildSolution(string title) {
@@ -40,6 +43,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
         } else if (title == "L19") {
             std::shared_ptr<L19_removeNthFromEnd> tmp= std::make_shared<L19_removeNthFromEnd>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L26") {
+            std::shared_ptr<L26_removeDuplicates> tmp= std::make_shared<L26_removeDuplicates>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L27") {
+            std::shared_ptr<L27_removeElement> tmp = std::make_shared<L27_removeElement>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
         }
     }
