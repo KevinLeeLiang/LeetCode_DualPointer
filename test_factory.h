@@ -22,6 +22,7 @@
 #include "L19_removeNthFromEnd/L19_removeNthFromEnd.h"
 #include "L26_removeDuplicates/L26_removeDuplicates.h"
 #include "L27_removeElement/L27_removeElement.h"
+#include "L28_strStr/L28_strStr.h"
 
 class test_factory {
 private:
@@ -50,6 +51,11 @@ private:
         } else if (title == "L27") {
             std::shared_ptr<L27_removeElement> tmp = std::make_shared<L27_removeElement>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L28") {
+            std::shared_ptr<L28_strStr> tmp = std::make_shared<L28_strStr>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else {
+            cout << "no solution" << endl;
         }
     }
 public:

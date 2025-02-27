@@ -18,3 +18,7 @@ LeetCode双指针算法题的解题仓库
 [26. 删除排序数组中的重复项](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/description/?envType=problem-list-v2&envId=two-pointers) : [L26_removeDuplicates](L26_removeDuplicates)
 
 [27. 移除元素](https://leetcode.cn/problems/remove-element/description/?envType=problem-list-v2&envId=two-pointers) : [L27_removeElement](L27_removeElement)
+
+[28. 找到字符串中第一个匹配项的下标](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/description/?envType=problem-list-v2&envId=two-pointers) : [L28_strStr](L28_strStr)
+
+[31. 下一个排列](https://leetcode.cn/problems/next-permutation/description/?envType=problem-list-v2&envId=two-pointers) : [L31_nextPermutation](L31_nextPermutation)
