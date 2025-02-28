@@ -23,6 +23,7 @@
 #include "L26_removeDuplicates/L26_removeDuplicates.h"
 #include "L27_removeElement/L27_removeElement.h"
 #include "L28_strStr/L28_strStr.h"
+#include "L31_nextPermutation/L31_nextPermutation.h"
 
 class test_factory {
 private:
@@ -53,6 +54,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
         } else if (title == "L28") {
             std::shared_ptr<L28_strStr> tmp = std::make_shared<L28_strStr>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L31") {
+            std::shared_ptr<L31_nextPermutation> tmp = std::make_shared<L31_nextPermutation>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
         } else {
             cout << "no solution" << endl;
