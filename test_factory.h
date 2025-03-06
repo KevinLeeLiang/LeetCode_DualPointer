@@ -24,6 +24,8 @@
 #include "L27_removeElement/L27_removeElement.h"
 #include "L28_strStr/L28_strStr.h"
 #include "L31_nextPermutation/L31_nextPermutation.h"
+#include "L42_trap/L42_trap.h"
+#include "L61_rotateRight/L61_rotateRight.h"
 
 class test_factory {
 private:
@@ -57,6 +59,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
         } else if (title == "L31") {
             std::shared_ptr<L31_nextPermutation> tmp = std::make_shared<L31_nextPermutation>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L42") {
+            std::shared_ptr<L42_trap> tmp = std::make_shared<L42_trap>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L61") {
+            std::shared_ptr<L61_rotateRight> tmp = std::make_shared<L61_rotateRight>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
         } else {
             cout << "no solution" << endl;

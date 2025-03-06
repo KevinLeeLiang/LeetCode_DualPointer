@@ -22,3 +22,7 @@ LeetCode双指针算法题的解题仓库
 [28. 找到字符串中第一个匹配项的下标](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/description/?envType=problem-list-v2&envId=two-pointers) : [L28_strStr](L28_strStr)
 
 [31. 下一个排列](https://leetcode.cn/problems/next-permutation/description/?envType=problem-list-v2&envId=two-pointers) : [L31_nextPermutation](L31_nextPermutation)
+
+[42. 接雨水](https://leetcode.cn/problems/trapping-rain-water/description/?envType=problem-list-v2&envId=two-pointers) : [L42_trap](L42_trap)
+
+[61. 旋转链表](https://leetcode.cn/problems/rotate-list/description/?envType=problem-list-v2&envId=two-pointers) : [L61_rotateRight](L61_rotateRight)
