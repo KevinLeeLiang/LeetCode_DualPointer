@@ -26,6 +26,8 @@
 #include "L31_nextPermutation/L31_nextPermutation.h"
 #include "L42_trap/L42_trap.h"
 #include "L61_rotateRight/L61_rotateRight.h"
+#include "L75_sortColors/L75_sortColors.h"
+#include "L80_removeDuplicates/L80_removeDuplicates.h"
 
 class test_factory {
 private:
@@ -66,8 +68,12 @@ private:
         } else if (title == "L61") {
             std::shared_ptr<L61_rotateRight> tmp = std::make_shared<L61_rotateRight>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
-        } else {
-            cout << "no solution" << endl;
+        } else if (title == "L75") {
+            std::shared_ptr<L75_sortColors> tmp = std::make_shared<L75_sortColors>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L80") {
+            std::shared_ptr<L80_removeDuplicates> tmp = std::make_shared<L80_removeDuplicates>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
         }
     }
 public:

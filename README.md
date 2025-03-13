@@ -26,3 +26,7 @@ LeetCode双指针算法题的解题仓库
 [42. 接雨水](https://leetcode.cn/problems/trapping-rain-water/description/?envType=problem-list-v2&envId=two-pointers) : [L42_trap](L42_trap)
 
 [61. 旋转链表](https://leetcode.cn/problems/rotate-list/description/?envType=problem-list-v2&envId=two-pointers) : [L61_rotateRight](L61_rotateRight)
+
+[75. 颜色分类](https://leetcode.cn/problems/sort-colors/description/?envType=problem-list-v2&envId=two-pointers) : [L75_sortColors](L75_sortColors)
+
+[80. 删除排序数组中的重复项 II](https://leetcode.cn/problems/remove-duplicates-from-sorted-array-ii/description/?envType=problem-list-v2&envId=two-pointers) : [L80_removeDuplicates](L80_removeDuplicates)
