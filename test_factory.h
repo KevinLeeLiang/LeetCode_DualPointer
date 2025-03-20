@@ -28,6 +28,8 @@
 #include "L61_rotateRight/L61_rotateRight.h"
 #include "L75_sortColors/L75_sortColors.h"
 #include "L80_removeDuplicates/L80_removeDuplicates.h"
+#include "L82_deleteDuplicates/L82_deleteDuplicates.h"
+#include "L86_partition/L86_partition.h"
 
 class test_factory {
 private:
@@ -73,6 +75,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
         } else if (title == "L80") {
             std::shared_ptr<L80_removeDuplicates> tmp = std::make_shared<L80_removeDuplicates>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L82") {
+            std::shared_ptr<L82_deleteDuplicates> tmp = std::make_shared<L82_deleteDuplicates>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L86") {
+            std::shared_ptr<L86_partition> tmp = std::make_shared<L86_partition>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
         }
     }

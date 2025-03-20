@@ -30,3 +30,7 @@ LeetCode双指针算法题的解题仓库
 [75. 颜色分类](https://leetcode.cn/problems/sort-colors/description/?envType=problem-list-v2&envId=two-pointers) : [L75_sortColors](L75_sortColors)
 
 [80. 删除排序数组中的重复项 II](https://leetcode.cn/problems/remove-duplicates-from-sorted-array-ii/description/?envType=problem-list-v2&envId=two-pointers) : [L80_removeDuplicates](L80_removeDuplicates)
+
+[82. 删除排序链表中的重复元素 II](https://leetcode.cn/problems/remove-duplicates-from-sorted-list-ii/description/?envType=problem-list-v2&envId=two-pointers) : [L82_deleteDuplicates](L82_deleteDuplicates)
+
+[86. 分隔链表](https://leetcode.cn/problems/partition-list/description/?envType=problem-list-v2&envId=two-pointers) : [L86_partition](L86_partition)
