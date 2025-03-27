@@ -34,3 +34,7 @@ LeetCode双指针算法题的解题仓库
 [82. 删除排序链表中的重复元素 II](https://leetcode.cn/problems/remove-duplicates-from-sorted-list-ii/description/?envType=problem-list-v2&envId=two-pointers) : [L82_deleteDuplicates](L82_deleteDuplicates)
 
 [86. 分隔链表](https://leetcode.cn/problems/partition-list/description/?envType=problem-list-v2&envId=two-pointers) : [L86_partition](L86_partition)
+
+[88. 合并两个有序数组](https://leetcode.cn/problems/merge-sorted-array/description/?envType=problem-list-v2&envId=two-pointers) : [L88_merge](L88_merge)
+
+[125. 验证回文串](https://leetcode.cn/problems/valid-palindrome/description/?envType=problem-list-v2&envId=two-pointers) : [L125_isPalindrome](L125_isPalindrome)

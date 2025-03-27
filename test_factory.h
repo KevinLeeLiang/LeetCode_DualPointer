@@ -30,6 +30,8 @@
 #include "L80_removeDuplicates/L80_removeDuplicates.h"
 #include "L82_deleteDuplicates/L82_deleteDuplicates.h"
 #include "L86_partition/L86_partition.h"
+#include "L88_merge/L88_merge.h"
+#include "L125_isPalindrome/L125_isPalindrome.h"
 
 class test_factory {
 private:
@@ -82,6 +84,14 @@ private:
         } else if (title == "L86") {
             std::shared_ptr<L86_partition> tmp = std::make_shared<L86_partition>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L88") {
+            std::shared_ptr<L88_merge> tmp = std::make_shared<L88_merge>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L125") {
+            std::shared_ptr<L125_isPalindrome> tmp = std::make_shared<L125_isPalindrome>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else {
+            cout << "no solution" << endl;
         }
     }
 public:
