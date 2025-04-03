@@ -32,6 +32,8 @@
 #include "L86_partition/L86_partition.h"
 #include "L88_merge/L88_merge.h"
 #include "L125_isPalindrome/L125_isPalindrome.h"
+#include "L141_hasCycle/L141_hasCycle.h"
+#include "L142_detectCycle/L142_detectCycle.h"
 
 class test_factory {
 private:
@@ -89,6 +91,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
         } else if (title == "L125") {
             std::shared_ptr<L125_isPalindrome> tmp = std::make_shared<L125_isPalindrome>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L141") {
+            std::shared_ptr<L141_hasCycle> tmp = std::make_shared<L141_hasCycle>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L142") {
+            std::shared_ptr<L142_detectCycle> tmp = std::make_shared<L142_detectCycle>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
         } else {
             cout << "no solution" << endl;
