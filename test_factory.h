@@ -34,6 +34,8 @@
 #include "L125_isPalindrome/L125_isPalindrome.h"
 #include "L141_hasCycle/L141_hasCycle.h"
 #include "L142_detectCycle/L142_detectCycle.h"
+#include "L143_reorderList/L143_recoderList.h"
+#include "L148_sortList/L148_sortList.h"
 
 class test_factory {
 private:
@@ -98,8 +100,12 @@ private:
         } else if (title == "L142") {
             std::shared_ptr<L142_detectCycle> tmp = std::make_shared<L142_detectCycle>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
-        } else {
-            cout << "no solution" << endl;
+        } else if (title == "L143") {
+            std::shared_ptr<L143_recoderList> tmp = std::make_shared<L143_recoderList>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L148") {
+            std::shared_ptr<L148_sortList> tmp = std::make_shared<L148_sortList>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
         }
     }
 public:

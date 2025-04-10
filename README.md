@@ -42,3 +42,7 @@ LeetCode双指针算法题的解题仓库
 [141. 环形链表](https://leetcode.cn/problems/linked-list-cycle/description/?envType=problem-list-v2&envId=two-pointers) : [L141_hasCycle](L141_hasCycle)
 
 [142. 环形链表 II](https://leetcode.cn/problems/linked-list-cycle-ii/description/?envType=problem-list-v2&envId=two-pointers) : [L142_detectCycle](L142_detectCycle)
+
+[143. 重排链表](https://leetcode.cn/problems/reorder-list/description/?envType=problem-list-v2&envId=two-pointers) : [L143_reorderList](L143_reorderList)
+
+[148. 排序链表](https://leetcode.cn/problems/sort-list/description/?envType=problem-list-v2&envId=two-pointers) : [L148_sortList](L148_sortList)
