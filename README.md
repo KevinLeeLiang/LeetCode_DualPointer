@@ -46,3 +46,7 @@ LeetCode双指针算法题的解题仓库
 [143. 重排链表](https://leetcode.cn/problems/reorder-list/description/?envType=problem-list-v2&envId=two-pointers) : [L143_reorderList](L143_reorderList)
 
 [148. 排序链表](https://leetcode.cn/problems/sort-list/description/?envType=problem-list-v2&envId=two-pointers) : [L148_sortList](L148_sortList)
+
+[151. 反转字符串里的单词](https://leetcode.cn/problems/reverse-words-in-a-string/description/?envType=problem-list-v2&envId=two-pointers) : [L151_reverseWords](L151_reverseWords)
+
+[160. 相交链表](https://leetcode.cn/problems/intersection-of-two-linked-lists/description/?envType=problem-list-v2&envId=two-pointers) : [L160_getIntersectionNode](L160_getIntersectionNode)

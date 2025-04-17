@@ -36,6 +36,8 @@
 #include "L142_detectCycle/L142_detectCycle.h"
 #include "L143_reorderList/L143_recoderList.h"
 #include "L148_sortList/L148_sortList.h"
+#include "L151_reverseWords/L151_reverseWords.h"
+#include "L160_getIntersectionNode/L160_getIntersectionNode.h"
 
 class test_factory {
 private:
@@ -106,6 +108,14 @@ private:
         } else if (title == "L148") {
             std::shared_ptr<L148_sortList> tmp = std::make_shared<L148_sortList>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L151") {
+            std::shared_ptr<L151_reverseWords> tmp = std::make_shared<L151_reverseWords>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L160") {
+            std::shared_ptr<L160_getIntersectionNode> tmp = std::make_shared<L160_getIntersectionNode>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else {
+            cout << "no solution" << endl;
         }
     }
 public:
