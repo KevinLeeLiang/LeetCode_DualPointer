@@ -38,6 +38,8 @@
 #include "L148_sortList/L148_sortList.h"
 #include "L151_reverseWords/L151_reverseWords.h"
 #include "L160_getIntersectionNode/L160_getIntersectionNode.h"
+#include "L165_compareVersion/L165_compareVersion.h"
+#include "L167_twoSum/L167_twoSum.h"
 
 class test_factory {
 private:
@@ -114,8 +116,12 @@ private:
         } else if (title == "L160") {
             std::shared_ptr<L160_getIntersectionNode> tmp = std::make_shared<L160_getIntersectionNode>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
-        } else {
-            cout << "no solution" << endl;
+        } else if (title == "L165") {
+            std::shared_ptr<L165_compareVersion> tmp = std::make_shared<L165_compareVersion>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L167") {
+            std::shared_ptr<L167_twoSum> tmp = std::make_shared<L167_twoSum>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
         }
     }
 public:

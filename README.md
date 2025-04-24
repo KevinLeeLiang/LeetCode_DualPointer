@@ -50,3 +50,7 @@ LeetCode双指针算法题的解题仓库
 [151. 反转字符串里的单词](https://leetcode.cn/problems/reverse-words-in-a-string/description/?envType=problem-list-v2&envId=two-pointers) : [L151_reverseWords](L151_reverseWords)
 
 [160. 相交链表](https://leetcode.cn/problems/intersection-of-two-linked-lists/description/?envType=problem-list-v2&envId=two-pointers) : [L160_getIntersectionNode](L160_getIntersectionNode)
+
+[165. 比较版本号](https://leetcode.cn/problems/compare-version-numbers/description/?envType=problem-list-v2&envId=two-pointers) : [L165_compareVersion](L165_compareVersion)
+
+[167. 两数之和 II - 输入有序数组](https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/description/?envType=problem-list-v2&envId=two-pointers) : [L167_twoSum](L167_twoSum)
