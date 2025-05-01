@@ -54,3 +54,7 @@ LeetCode双指针算法题的解题仓库
 [165. 比较版本号](https://leetcode.cn/problems/compare-version-numbers/description/?envType=problem-list-v2&envId=two-pointers) : [L165_compareVersion](L165_compareVersion)
 
 [167. 两数之和 II - 输入有序数组](https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/description/?envType=problem-list-v2&envId=two-pointers) : [L167_twoSum](L167_twoSum)
+
+[189. 旋转数组](https://leetcode.cn/problems/rotate-array/description/?envType=problem-list-v2&envId=two-pointers) : [L189_rotate](L189_rotate)
+
+[202. 快乐数](https://leetcode.cn/problems/happy-number/description/?envType=problem-list-v2&envId=two-pointers) : [L202_isHappy](L202_isHappy)

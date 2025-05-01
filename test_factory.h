@@ -40,6 +40,8 @@
 #include "L160_getIntersectionNode/L160_getIntersectionNode.h"
 #include "L165_compareVersion/L165_compareVersion.h"
 #include "L167_twoSum/L167_twoSum.h"
+#include "L189_rotate/L189_rotate.h"
+#include "L202_isHappy/L202_isHappy.h"
 
 class test_factory {
 private:
@@ -121,6 +123,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
         } else if (title == "L167") {
             std::shared_ptr<L167_twoSum> tmp = std::make_shared<L167_twoSum>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L189") {
+            std::shared_ptr<L189_rotate> tmp = std::make_shared<L189_rotate>();
+            solution_  = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L202") {
+            std::shared_ptr<L202_isHappy> tmp = std::make_shared<L202_isHappy>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
         }
     }
