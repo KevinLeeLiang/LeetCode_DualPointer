@@ -42,6 +42,8 @@
 #include "L167_twoSum/L167_twoSum.h"
 #include "L189_rotate/L189_rotate.h"
 #include "L202_isHappy/L202_isHappy.h"
+#include "L234_isPalindrome/L234_isPalindrome.h"
+#include "L283_moveZeroes/L283_moveZeroes.h"
 
 class test_factory {
 private:
@@ -129,6 +131,12 @@ private:
             solution_  = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
         } else if (title == "L202") {
             std::shared_ptr<L202_isHappy> tmp = std::make_shared<L202_isHappy>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L234") {
+            std::shared_ptr<L234_isPalindrome> tmp = std::make_shared<L234_isPalindrome>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L283") {
+            std::shared_ptr<L283_moveZeroes> tmp = std::make_shared<L283_moveZeroes>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
         }
     }
