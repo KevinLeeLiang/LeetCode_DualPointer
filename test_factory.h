@@ -44,6 +44,8 @@
 #include "L202_isHappy/L202_isHappy.h"
 #include "L234_isPalindrome/L234_isPalindrome.h"
 #include "L283_moveZeroes/L283_moveZeroes.h"
+#include "L287_findDuplicate/L287_findDuplicate.h"
+#include "L295_findMedian/L295_findMedian.h"
 
 class test_factory {
 private:
@@ -137,6 +139,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
         } else if (title == "L283") {
             std::shared_ptr<L283_moveZeroes> tmp = std::make_shared<L283_moveZeroes>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L287") {
+            std::shared_ptr<L287_findDuplicate> tmp = std::make_shared<L287_findDuplicate>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L295") {
+            std::shared_ptr<L295_findMedian> tmp = std::make_shared<L295_findMedian>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
         }
     }
