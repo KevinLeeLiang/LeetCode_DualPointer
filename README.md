@@ -66,3 +66,7 @@ LeetCode双指针算法题的解题仓库
 [287. 寻找重复数](https://leetcode.cn/problems/find-the-duplicate-number/description/?envType=problem-list-v2&envId=two-pointers) : [L287_findDuplicate](L287_findDuplicate)
 
 [295. 数据流的中位数](https://leetcode.cn/problems/find-median-from-data-stream/description/?envType=problem-list-v2&envId=two-pointers) : [L295_findMedian](L295_findMedian)
+
+[321. 拼接最大数](https://leetcode.cn/problems/create-maximum-number/description/?envType=problem-list-v2&envId=two-pointers) : [L321_maxNumber](L321_maxNumber)
+
+[345. 反转字符串](https://leetcode.cn/problems/reverse-string/description/?envType=problem-list-v2&envId=two-pointers) : [L345_reverseString](L345_reverseString)

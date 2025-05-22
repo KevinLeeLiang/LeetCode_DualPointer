@@ -46,6 +46,8 @@
 #include "L283_moveZeroes/L283_moveZeroes.h"
 #include "L287_findDuplicate/L287_findDuplicate.h"
 #include "L295_findMedian/L295_findMedian.h"
+#include "L321_maxNumber/L321_maxNumber.h"
+#include "L344_reverseString/L344_reverseString.h"
 
 class test_factory {
 private:
@@ -145,6 +147,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
         } else if (title == "L295") {
             std::shared_ptr<L295_findMedian> tmp = std::make_shared<L295_findMedian>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L321") {
+            std::shared_ptr<L321_maxNumber> tmp = std::make_shared<L321_maxNumber>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L344") {
+            std::shared_ptr<L344_reverseString> tmp = std::make_shared<L344_reverseString>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
         }
     }
