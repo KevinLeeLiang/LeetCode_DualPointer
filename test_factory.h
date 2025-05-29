@@ -48,6 +48,8 @@
 #include "L295_findMedian/L295_findMedian.h"
 #include "L321_maxNumber/L321_maxNumber.h"
 #include "L344_reverseString/L344_reverseString.h"
+#include "L345_reverseVowels/L345_reverseVowels.h"
+#include "L349_intersection/L349_intersection.h"
 
 class test_factory {
 private:
@@ -153,6 +155,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
         } else if (title == "L344") {
             std::shared_ptr<L344_reverseString> tmp = std::make_shared<L344_reverseString>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L345") {
+            std::shared_ptr<L345_reverseVowels> tmp = std::make_shared<L345_reverseVowels>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L349") {
+            std::shared_ptr<L349_intersection> tmp = std::make_shared<L349_intersection>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
         }
     }

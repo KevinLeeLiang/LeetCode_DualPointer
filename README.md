@@ -69,4 +69,8 @@ LeetCode双指针算法题的解题仓库
 
 [321. 拼接最大数](https://leetcode.cn/problems/create-maximum-number/description/?envType=problem-list-v2&envId=two-pointers) : [L321_maxNumber](L321_maxNumber)
 
-[345. 反转字符串](https://leetcode.cn/problems/reverse-string/description/?envType=problem-list-v2&envId=two-pointers) : [L345_reverseString](L345_reverseString)
+[344. 反转字符串](https://leetcode.cn/problems/reverse-string/description/?envType=problem-list-v2&envId=two-pointers) : [L344_reverseString](L344_reverseString)
+
+[345. 反转字符串中的元音字母](https://leetcode.cn/problems/reverse-vowels-of-a-string/description/?envType=problem-list-v2&envId=two-pointers) : [L345_reverseVowels](L345_reverseVowels)
+
+[349. 两个数组的交集](https://leetcode.cn/problems/intersection-of-two-arrays/description/?envType=problem-list-v2&envId=two-pointers) : [L349_intersection](L349_intersection)
