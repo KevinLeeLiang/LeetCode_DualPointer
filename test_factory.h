@@ -50,6 +50,8 @@
 #include "L344_reverseString/L344_reverseString.h"
 #include "L345_reverseVowels/L345_reverseVowels.h"
 #include "L349_intersection/L349_intersection.h"
+#include "L350_intersect/L350_intersect.h"
+#include "L392_isSubsequence/L392_isSubsequence.h"
 
 class test_factory {
 private:
@@ -162,7 +164,14 @@ private:
         } else if (title == "L349") {
             std::shared_ptr<L349_intersection> tmp = std::make_shared<L349_intersection>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L350") {
+            std::shared_ptr<L350_intersect> tmp = std::make_shared<L350_intersect>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L392") {
+            std::shared_ptr<L392_isSubsequence> tmp = std::make_shared<L392_isSubsequence>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
         }
+
     }
 public:
     test_factory(string title) {

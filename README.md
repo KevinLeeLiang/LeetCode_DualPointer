@@ -74,3 +74,7 @@ LeetCode双指针算法题的解题仓库
 [345. 反转字符串中的元音字母](https://leetcode.cn/problems/reverse-vowels-of-a-string/description/?envType=problem-list-v2&envId=two-pointers) : [L345_reverseVowels](L345_reverseVowels)
 
 [349. 两个数组的交集](https://leetcode.cn/problems/intersection-of-two-arrays/description/?envType=problem-list-v2&envId=two-pointers) : [L349_intersection](L349_intersection)
+
+[350. 两个数组的交集 II](https://leetcode.cn/problems/intersection-of-two-arrays-ii/description/?envType=problem-list-v2&envId=two-pointers) : [L350_intersection](L350_intersection)
+
+[392. 判断子序列](https://leetcode.cn/problems/is-subsequence/description/?envType=problem-list-v2&envId=two-pointers) : [L392_isSubsequence](L392_isSubsequence)
