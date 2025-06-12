@@ -78,3 +78,7 @@ LeetCode双指针算法题的解题仓库
 [350. 两个数组的交集 II](https://leetcode.cn/problems/intersection-of-two-arrays-ii/description/?envType=problem-list-v2&envId=two-pointers) : [L350_intersection](L350_intersection)
 
 [392. 判断子序列](https://leetcode.cn/problems/is-subsequence/description/?envType=problem-list-v2&envId=two-pointers) : [L392_isSubsequence](L392_isSubsequence)
+
+[443. 压缩字符串](https://leetcode.cn/problems/string-compression/description/?envType=problem-list-v2&envId=two-pointers) : [L443_compress](L443_compress)
+
+[455. 分发饼干](https://leetcode.cn/problems/assign-cookies/description/?envType=problem-list-v2&envId=two-pointers) : [L455_findContentChildren](L455_findContentChildren)

@@ -52,6 +52,8 @@
 #include "L349_intersection/L349_intersection.h"
 #include "L350_intersect/L350_intersect.h"
 #include "L392_isSubsequence/L392_isSubsequence.h"
+#include "L443_compress/L443_compress.h"
+#include "L455_findContentChildren/L455_findContentChildren.h"
 
 class test_factory {
 private:
@@ -169,6 +171,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
         } else if (title == "L392") {
             std::shared_ptr<L392_isSubsequence> tmp = std::make_shared<L392_isSubsequence>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L443") {
+            std::shared_ptr<L443_compress> tmp = std::make_shared<L443_compress>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L455") {
+            std::shared_ptr<L455_findContentChildren> tmp = std::make_shared<L455_findContentChildren>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
         }
 
