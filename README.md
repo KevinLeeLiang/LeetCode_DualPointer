@@ -82,3 +82,7 @@ LeetCode双指针算法题的解题仓库
 [443. 压缩字符串](https://leetcode.cn/problems/string-compression/description/?envType=problem-list-v2&envId=two-pointers) : [L443_compress](L443_compress)
 
 [455. 分发饼干](https://leetcode.cn/problems/assign-cookies/description/?envType=problem-list-v2&envId=two-pointers) : [L455_findContentChildren](L455_findContentChildren)
+
+[457. 环形数组是否存在循环](https://leetcode.cn/problems/circular-array-loop/description/?envType=problem-list-v2&envId=two-pointers) : [L457_circularArrayLoop](L457_circularArrayLoop)
+
+[475. 供暖器](https://leetcode.cn/problems/heaters/description/?envType=problem-list-v2&envId=two-pointers) : [L475_findRadius](L475_findRadius)

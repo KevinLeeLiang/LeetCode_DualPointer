@@ -54,6 +54,8 @@
 #include "L392_isSubsequence/L392_isSubsequence.h"
 #include "L443_compress/L443_compress.h"
 #include "L455_findContentChildren/L455_findContentChildren.h"
+#include "L457_circularArrayLoop/L457_circularArrayLoop.h"
+#include "L475_findRadius/L475_findRadius.h"
 
 class test_factory {
 private:
@@ -178,8 +180,13 @@ private:
         } else if (title == "L455") {
             std::shared_ptr<L455_findContentChildren> tmp = std::make_shared<L455_findContentChildren>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L457") {
+            std::shared_ptr<L457_circularArrayLoop> tmp = std::make_shared<L457_circularArrayLoop>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L475") {
+            std::shared_ptr<L475_findRadius> tmp = std::make_shared<L475_findRadius>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
         }
-
     }
 public:
     test_factory(string title) {
