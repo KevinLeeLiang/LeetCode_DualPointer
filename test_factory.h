@@ -56,6 +56,8 @@
 #include "L455_findContentChildren/L455_findContentChildren.h"
 #include "L457_circularArrayLoop/L457_circularArrayLoop.h"
 #include "L475_findRadius/L475_findRadius.h"
+#include "L481_magicalString/L481_magicalString.h"
+#include "L522_findLUSlength/L522_findLUSlength.h"
 
 class test_factory {
 private:
@@ -185,6 +187,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
         } else if (title == "L475") {
             std::shared_ptr<L475_findRadius> tmp = std::make_shared<L475_findRadius>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L481") {
+            std::shared_ptr<L481_magicalString> tmp = std::make_shared<L481_magicalString>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L522") {
+            std::shared_ptr<L522_findLUSlength> tmp = std::make_shared<L522_findLUSlength>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
         }
     }

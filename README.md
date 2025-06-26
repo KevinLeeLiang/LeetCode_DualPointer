@@ -86,3 +86,7 @@ LeetCode双指针算法题的解题仓库
 [457. 环形数组是否存在循环](https://leetcode.cn/problems/circular-array-loop/description/?envType=problem-list-v2&envId=two-pointers) : [L457_circularArrayLoop](L457_circularArrayLoop)
 
 [475. 供暖器](https://leetcode.cn/problems/heaters/description/?envType=problem-list-v2&envId=two-pointers) : [L475_findRadius](L475_findRadius)
+
+[481. 神奇的字符串](https://leetcode.cn/problems/magical-string/description/?envType=problem-list-v2&envId=two-pointers) ： [L481_magicalString](L481_magicalString)
+
+[522. 最长特殊序列 II](https://leetcode.cn/problems/longest-uncommon-subsequence-ii/description/?envType=problem-list-v2&envId=two-pointers) : [L522_findLUSlength](L522_findLUSlength)
