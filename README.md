@@ -90,3 +90,7 @@ LeetCode双指针算法题的解题仓库
 [481. 神奇的字符串](https://leetcode.cn/problems/magical-string/description/?envType=problem-list-v2&envId=two-pointers) ： [L481_magicalString](L481_magicalString)
 
 [522. 最长特殊序列 II](https://leetcode.cn/problems/longest-uncommon-subsequence-ii/description/?envType=problem-list-v2&envId=two-pointers) : [L522_findLUSlength](L522_findLUSlength)
+
+[524. 通过删除字母匹配到字典里最长单词](https://leetcode.cn/problems/longest-word-in-dictionary-through-deleting/description/?envType=problem-list-v2&envId=two-pointers) : [L524_findLongestWord](L524_findLongestWord)
+
+[532. 数组中的 k-diff 数对](https://leetcode.cn/problems/k-diff-pairs-in-an-array/description/?envType=problem-list-v2&envId=two-pointers) : [L532_findPairs](L532_findPairs)

@@ -58,6 +58,8 @@
 #include "L475_findRadius/L475_findRadius.h"
 #include "L481_magicalString/L481_magicalString.h"
 #include "L522_findLUSlength/L522_findLUSlength.h"
+#include "L524_findLongestWord/L524_findLongestWord.h"
+#include "L532_findPairs/L532_findPairs.h"
 
 class test_factory {
 private:
@@ -193,6 +195,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
         } else if (title == "L522") {
             std::shared_ptr<L522_findLUSlength> tmp = std::make_shared<L522_findLUSlength>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L524") {
+            std::shared_ptr<L524_findLongestWord> tmp = std::make_shared<L524_findLongestWord>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L532") {
+            std::shared_ptr<L532_findPairs> tmp = std::make_shared<L532_findPairs>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
         }
     }
