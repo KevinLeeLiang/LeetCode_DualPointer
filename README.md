@@ -96,3 +96,5 @@ LeetCode双指针算法题的解题仓库
 [532. 数组中的 k-diff 数对](https://leetcode.cn/problems/k-diff-pairs-in-an-array/description/?envType=problem-list-v2&envId=two-pointers) : [L532_findPairs](L532_findPairs)
 
 [541. 反转字符串II](https://leetcode.cn/problems/reverse-string-ii/description/?envType=problem-list-v2&envId=two-pointers) : [L541_reverseStr](L541_reverseStr)
+
+[556. 下一个更大元素 III](https://leetcode.cn/problems/next-greater-element-iii/description/?envType=problem-list-v2&envId=two-pointers) : [L556_nextGreaterElement](L556_nextGreaterElement)
