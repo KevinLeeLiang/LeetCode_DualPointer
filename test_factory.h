@@ -62,6 +62,7 @@
 #include "L532_findPairs/L532_findPairs.h"
 #include "L541_reverseStr/L541_reverseStr.h"
 #include "L556_nextGreaterElement/L556_nextGreaterElement.h"
+#include "L557_reverseWords/L557_reverseWords.h"
 
 class test_factory {
 private:
@@ -209,6 +210,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
         } else if (title == "L556") {
             std::shared_ptr<L556_nextGreaterElement> tmp = std::make_shared<L556_nextGreaterElement>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
+        } else if (title == "L557") {
+            std::shared_ptr<L557_reverseWords> tmp = std::make_shared<L557_reverseWords>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDualPointer>(tmp);
         }
     }
